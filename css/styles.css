@@ -572,11 +572,11 @@ background-color: #4d5ae5;
   cursor: pointer;
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal-close-btn:hover .close-btn-icon, 
+.modal-close-btn:focus .close-btn-icon {
+  fill: #ffffff;
   background-color: #404bbf;
   border: none;
-  fill: #ffffff
 }
 
 .close-btn-icon {
@@ -584,10 +584,6 @@ background-color: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn-icon:hover, 
-.close-btn-icon:focus {
-  fill: #ffffff
-}
 
 .modal-text {
   font-weight: 500;
